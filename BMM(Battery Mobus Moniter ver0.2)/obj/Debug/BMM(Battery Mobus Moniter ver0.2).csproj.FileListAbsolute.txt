@@ -1,0 +1,30 @@
+C:\Users\G11407007\source\repos\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\bin\Debug\BMM(Battery Mobus Moniter ver0.2).exe.config
+C:\Users\G11407007\source\repos\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\bin\Debug\BMM(Battery Mobus Moniter ver0.2).exe
+C:\Users\G11407007\source\repos\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\bin\Debug\BMM(Battery Mobus Moniter ver0.2).pdb
+C:\Users\G11407007\source\repos\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM(Battery Mobus Moniter ver0.2).csproj.AssemblyReference.cache
+C:\Users\G11407007\source\repos\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM_Battery_Mobus_Moniter_ver0._2_.FormMain.resources
+C:\Users\G11407007\source\repos\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM_Battery_Mobus_Moniter_ver0._2_.Properties.Resources.resources
+C:\Users\G11407007\source\repos\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM(Battery Mobus Moniter ver0.2).csproj.GenerateResource.cache
+C:\Users\G11407007\source\repos\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM(Battery Mobus Moniter ver0.2).csproj.CoreCompileInputs.cache
+C:\Users\G11407007\source\repos\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM(Battery Mobus Moniter ver0.2).exe
+C:\Users\G11407007\source\repos\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM(Battery Mobus Moniter ver0.2).pdb
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\bin\Debug\BMM(Battery Mobus Moniter ver0.2).exe.config
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\bin\Debug\BMM(Battery Mobus Moniter ver0.2).exe
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\bin\Debug\BMM(Battery Mobus Moniter ver0.2).pdb
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\bin\Debug\NModbus.dll
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\bin\Debug\NModbus4.dll
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\bin\Debug\NModbus.xml
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\bin\Debug\NModbus4.xml
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM(Battery Mobus Moniter ver0.2).csproj.AssemblyReference.cache
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM(Battery Mobus Moniter ver0.2).exe.config
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM_Battery_Mobus_Moniter_ver0._2_.FormMain.resources
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM_Battery_Mobus_Moniter_ver0._2_.Properties.Resources.resources
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM(Battery Mobus Moniter ver0.2).csproj.GenerateResource.cache
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM(Battery Mobus Moniter ver0.2).csproj.CoreCompileInputs.cache
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM(Batt.60013DB2.Up2Date
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM(Battery Mobus Moniter ver0.2).exe
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM(Battery Mobus Moniter ver0.2).pdb
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM_Battery_Mobus_Moniter_ver0._2_.Controls.BatteryPanel.resources
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM_Battery_Mobus_Moniter_ver0._2_.Forms.FormMonitor.resources
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM_Battery_Mobus_Moniter_ver0._2_.Utils.Logger.resources
+C:\Users\G11407007\Desktop\Modbus Prime(Demo)\BMM(Battery Mobus Moniter ver0.2)\BMM(Battery Mobus Moniter ver0.2)\obj\Debug\BMM_Battery_Mobus_Moniter_ver0._2_.Forms.FormPopup.resources
