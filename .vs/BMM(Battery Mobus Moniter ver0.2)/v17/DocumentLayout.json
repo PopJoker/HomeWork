@@ -1,18 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\G11407007\\Desktop\\Modbus Prime(Demo)\\BMM(Battery Mobus Moniter ver0.2)\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|C:\\Users\\G11407007\\Desktop\\Modbus Prime(Demo)\\BMM(Battery Mobus Moniter ver0.2)\\bmm(battery mobus moniter ver0.2)\\models\\battery22s2p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\forms\\formcanbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\forms\\formcanbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|c:\\users\\user\\onedrive\\desktop\\work\\bmm(battery mobus moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\forms\\formpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\forms\\formpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|c:\\users\\user\\onedrive\\desktop\\work\\bmm(battery mobus moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\forms\\formpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\forms\\formpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\forms\\formmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\forms\\formmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\forms\\formcanbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\forms\\formcanbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\forms\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\forms\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|c:\\users\\user\\onedrive\\desktop\\work\\bmm(battery mobus moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\controls\\batterypanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\controls\\batterypanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\forms\\formcanbus.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\forms\\formcanbus.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\controls\\batterypanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\controls\\batterypanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\forms\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\forms\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\models\\battery22s2p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\models\\battery22s2p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|c:\\users\\g11407007\\desktop\\modbus prime(demo)\\bmm(battery mobus moniter ver0.2)\\bmm(battery mobus moniter ver0.2)\\forms\\formmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\services\\class2canbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\services\\class2canbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|c:\\users\\user\\onedrive\\desktop\\work\\bmm(battery mobus moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\controls\\batterypanel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\controls\\batterypanel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\forms\\formmonitor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\forms\\formmonitor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|c:\\users\\user\\onedrive\\desktop\\work\\bmm(battery mobus moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\forms\\formmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\forms\\formmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|c:\\users\\g11407007\\desktop\\modbus prime(demo)\\bmm(battery mobus moniter ver0.2)\\bmm(battery mobus moniter ver0.2)\\services\\canbusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\services\\canbusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|c:\\users\\user\\onedrive\\desktop\\work\\bmm(battery mobus moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\forms\\formpopup.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\forms\\formpopup.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|c:\\users\\user\\onedrive\\desktop\\work\\bmm(battery mobus moniter ver0.2) - \u8907\u88FD\\bmm(battery mobus moniter ver0.2)\\forms\\formpopup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABACEDC8-D7EF-4240-97B1-D7D799370857}|BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2).csproj|solutionrelative:bmm(battery mobus moniter ver0.2)\\forms\\formpopup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +78,222 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormPopup.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.Designer.cs",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.Designer.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.Designer.cs",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T07:04:09.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormPopup.resx",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.resx",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.resx",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.resx",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-08-03T07:04:02.687Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormMonitor.cs [\u8A2D\u8A08]",
-              "DocumentMoniker": "C:\\Users\\G11407007\\Desktop\\Modbus Prime(Demo)\\BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.cs",
-              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.cs",
-              "ToolTip": "C:\\Users\\G11407007\\Desktop\\Modbus Prime(Demo)\\BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.cs [\u8A2D\u8A08]",
-              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.cs [\u8A2D\u8A08]",
+              "Title": "FormPopup.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.cs",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.cs",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA+wB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T09:20:23.689Z",
+              "WhenOpened": "2025-08-03T06:56:12.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormCanbus.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormCanbus.cs",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormCanbus.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormCanbus.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormCanbus.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T08:46:51.359Z",
               "EditorCaption": " [\u8A2D\u8A08]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormCanbus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormCanbus.cs",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormCanbus.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormCanbus.cs",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormCanbus.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAwwAcBAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T08:46:51.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormMonitor.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.cs",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.cs",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.cs",
+              "ViewState": "AgIAAE8BAAAAAAAAAAAwwGQBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T08:35:51.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormPopup.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.cs",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormPopup.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T06:56:11.636Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BatteryPanel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Controls\\BatteryPanel.cs",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Controls\\BatteryPanel.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Controls\\BatteryPanel.cs",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Controls\\BatteryPanel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T05:41:13.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormCanbus.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormCanbus.Designer.cs",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormCanbus.Designer.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormCanbus.Designer.cs",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormCanbus.Designer.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAIBAwKsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T05:03:02.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormMain.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMain.cs",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMain.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMain.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMain.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T08:27:56.88Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BatteryPanel.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Controls\\BatteryPanel.cs",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Controls\\BatteryPanel.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Controls\\BatteryPanel.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Controls\\BatteryPanel.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T08:30:25.394Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMain.cs",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMain.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMain.cs",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMain.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwCEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T08:29:13.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Battery22S2P.cs",
-              "DocumentMoniker": "C:\\Users\\G11407007\\Desktop\\Modbus Prime(Demo)\\BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2)\\Models\\Battery22S2P.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Models\\Battery22S2P.cs",
               "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Models\\Battery22S2P.cs",
-              "ToolTip": "C:\\Users\\G11407007\\Desktop\\Modbus Prime(Demo)\\BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2)\\Models\\Battery22S2P.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Models\\Battery22S2P.cs",
               "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Models\\Battery22S2P.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAANUAAAAAAAAAAAAAAO8AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T07:50:04.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CanbusService.cs",
-              "DocumentMoniker": "C:\\Users\\G11407007\\Desktop\\Modbus Prime(Demo)\\BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2)\\Services\\CanbusService.cs",
-              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Services\\CanbusService.cs",
-              "ToolTip": "C:\\Users\\G11407007\\Desktop\\Modbus Prime(Demo)\\BMM(Battery Mobus Moniter ver0.2)\\BMM(Battery Mobus Moniter ver0.2)\\Services\\CanbusService.cs",
-              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Services\\CanbusService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAG8BAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Class2Canbus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Services\\Class2Canbus.cs",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Services\\Class2Canbus.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Services\\Class2Canbus.cs",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Services\\Class2Canbus.cs",
+              "ViewState": "AgIAAK4QAAAAAAAAAAAmwLQQAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T03:47:04.911Z",
+              "WhenOpened": "2025-08-01T08:27:32.961Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BatteryPanel.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Controls\\BatteryPanel.Designer.cs",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Controls\\BatteryPanel.Designer.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Controls\\BatteryPanel.Designer.cs",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Controls\\BatteryPanel.Designer.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA+wKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T05:50:26.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormMonitor.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.Designer.cs",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.Designer.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.Designer.cs",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFABAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T05:02:51.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormMonitor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.cs",
+              "RelativeDocumentMoniker": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Work\\BMM(Battery Mobus Moniter ver0.2) - \u8907\u88FD\\BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.cs [Design]",
+              "RelativeToolTip": "BMM(Battery Mobus Moniter ver0.2)\\Forms\\FormMonitor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T09:20:23.689Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

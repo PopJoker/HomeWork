@@ -418,5 +418,10 @@ namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

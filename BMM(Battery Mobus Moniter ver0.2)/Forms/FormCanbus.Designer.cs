@@ -2,7 +2,7 @@
 
 namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
 {
-    partial class FormMonitor
+    partial class FormCanbus
     {
         /// <summary>
         /// Required designer variable.
@@ -32,7 +32,6 @@ namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMonitor));
             this.tableLayoutPanelPanels = new System.Windows.Forms.TableLayoutPanel();
             this.panelLogSettings = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -54,6 +53,7 @@ namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
             this.TB_CellMin = new System.Windows.Forms.TextBox();
             this.BT_apply = new System.Windows.Forms.Button();
             this.panelCell = new System.Windows.Forms.Panel();
+            this.BgwCs2PollingCmd = new System.ComponentModel.BackgroundWorker();
             this.panelLogSettings.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -79,7 +79,6 @@ namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
             this.tableLayoutPanelPanels.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanelPanels.Size = new System.Drawing.Size(1384, 687);
             this.tableLayoutPanelPanels.TabIndex = 0;
-            this.tableLayoutPanelPanels.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanelPanels_Paint);
             // 
             // panelLogSettings
             // 
@@ -109,7 +108,6 @@ namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(477, 45);
             this.panel1.TabIndex = 6;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // labelLogPath
             // 
@@ -130,7 +128,6 @@ namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
             this.BT_Browse.TabIndex = 5;
             this.BT_Browse.Text = "Browse";
             this.BT_Browse.UseVisualStyleBackColor = true;
-            this.BT_Browse.Click += new System.EventHandler(this.BT_Browse_Click);
             // 
             // textBoxLogPath
             // 
@@ -139,7 +136,6 @@ namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
             this.textBoxLogPath.Name = "textBoxLogPath";
             this.textBoxLogPath.Size = new System.Drawing.Size(245, 27);
             this.textBoxLogPath.TabIndex = 2;
-            this.textBoxLogPath.TextChanged += new System.EventHandler(this.textBoxLogPath_TextChanged);
             // 
             // LB_Time
             // 
@@ -174,7 +170,6 @@ namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(560, 45);
             this.panel4.TabIndex = 9;
-            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // label2
             // 
@@ -226,7 +221,6 @@ namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(560, 45);
             this.panel5.TabIndex = 10;
-            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // label4
             // 
@@ -275,7 +269,6 @@ namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
             this.BT_apply.TabIndex = 6;
             this.BT_apply.Text = "Apply";
             this.BT_apply.UseVisualStyleBackColor = true;
-            this.BT_apply.Click += new System.EventHandler(this.BT_apply_Click);
             // 
             // panelCell
             // 
@@ -287,7 +280,15 @@ namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
             this.panelCell.Size = new System.Drawing.Size(560, 91);
             this.panelCell.TabIndex = 6;
             // 
-            // FormMonitor
+            // BgwCs2PollingCmd
+            // 
+            this.BgwCs2PollingCmd.WorkerReportsProgress = true;
+            this.BgwCs2PollingCmd.WorkerSupportsCancellation = true;
+            this.BgwCs2PollingCmd.DoWork += new System.ComponentModel.DoWorkEventHandler(this.BgwCs2PollingCmd_DoWork);
+            this.BgwCs2PollingCmd.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.BgwCs2PollingCmd_ProgressChanged);
+            this.BgwCs2PollingCmd.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.BgwCs2PollingCmd_RunWorkerCompleted);
+            // 
+            // FormCanbus
             // 
             this.ClientSize = new System.Drawing.Size(1384, 778);
             this.Controls.Add(this.panel2);
@@ -295,11 +296,9 @@ namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
             this.Controls.Add(this.panelLogSettings);
             this.Controls.Add(this.tableLayoutPanelPanels);
             this.Font = new System.Drawing.Font("文泉驛微米黑", 18F);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "FormMonitor";
-            this.Text = "FormMonitor";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMonitor_FormClosing);
-            this.Load += new System.EventHandler(this.FormMonitor_Load);
+            this.Name = "FormCanbus";
+            this.Text = "CanbusMoniter";
+            this.Load += new System.EventHandler(this.FormCanbus_Load);
             this.panelLogSettings.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -333,5 +332,6 @@ namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
         private Panel panelCell;
         private Label label4;
         private TextBox TB_TempMax;
+        private System.ComponentModel.BackgroundWorker BgwCs2PollingCmd;
     }
 }

@@ -59,6 +59,12 @@
     <Compile Include="Controls\BatteryPanel.Designer.cs">
       <DependentUpon>BatteryPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormCanbus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCanbus.Designer.cs">
+      <DependentUpon>FormCanbus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,7 +86,7 @@
     <Compile Include="Models\Battery22S2P.cs" />
     <Compile Include="Models\IBatteryData.cs" />
     <Compile Include="Services\APIService.cs" />
-    <Compile Include="Services\CanbusService.cs" />
+    <Compile Include="Services\Class2Canbus.cs" />
     <Compile Include="Services\ModbusService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -88,6 +94,9 @@
     <Compile Include="Utils\PanelDataSplitter.cs" />
     <EmbeddedResource Include="Controls\BatteryPanel.resx">
       <DependentUpon>BatteryPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCanbus.resx">
+      <DependentUpon>FormCanbus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>

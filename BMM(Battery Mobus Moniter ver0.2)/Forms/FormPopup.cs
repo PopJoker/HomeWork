@@ -15,7 +15,21 @@ namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
         {
             InitializeComponent();
         }
+        public string BatteryName
+        {
+            get => labelTitle.Text;
+            set => labelTitle.Text = value;
+        }
 
+        public void SetDataLines(string[] lines)
+        {
+            if (InvokeRequired)
+            {
+                Invoke(new Action(() => SetDataLines(lines)));
+                return;
+            }
+            TB_mainPage.Lines = lines;
+        }
         public void LoadData(
             string comPort,
             string batteryId,

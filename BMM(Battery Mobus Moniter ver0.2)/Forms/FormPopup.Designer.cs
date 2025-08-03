@@ -50,9 +50,11 @@
             // 
             this.GB_mainPage.Controls.Add(this.TB_mainPage);
             this.GB_mainPage.Font = new System.Drawing.Font("文泉驛微米黑", 12F);
-            this.GB_mainPage.Location = new System.Drawing.Point(15, 111);
+            this.GB_mainPage.Location = new System.Drawing.Point(11, 89);
+            this.GB_mainPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GB_mainPage.Name = "GB_mainPage";
-            this.GB_mainPage.Size = new System.Drawing.Size(311, 339);
+            this.GB_mainPage.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GB_mainPage.Size = new System.Drawing.Size(233, 271);
             this.GB_mainPage.TabIndex = 0;
             this.GB_mainPage.TabStop = false;
             this.GB_mainPage.Text = "Main Page";
@@ -61,20 +63,23 @@
             // 
             this.TB_mainPage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TB_mainPage.Font = new System.Drawing.Font("文泉驛微米黑", 12F);
-            this.TB_mainPage.Location = new System.Drawing.Point(3, 27);
+            this.TB_mainPage.Location = new System.Drawing.Point(2, 21);
+            this.TB_mainPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TB_mainPage.Multiline = true;
             this.TB_mainPage.Name = "TB_mainPage";
             this.TB_mainPage.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TB_mainPage.Size = new System.Drawing.Size(305, 309);
+            this.TB_mainPage.Size = new System.Drawing.Size(229, 248);
             this.TB_mainPage.TabIndex = 0;
             // 
             // GB_cellPage
             // 
             this.GB_cellPage.Controls.Add(this.TB_cellPage);
             this.GB_cellPage.Font = new System.Drawing.Font("文泉驛微米黑", 12F);
-            this.GB_cellPage.Location = new System.Drawing.Point(335, 317);
+            this.GB_cellPage.Location = new System.Drawing.Point(251, 254);
+            this.GB_cellPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GB_cellPage.Name = "GB_cellPage";
-            this.GB_cellPage.Size = new System.Drawing.Size(311, 434);
+            this.GB_cellPage.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GB_cellPage.Size = new System.Drawing.Size(233, 347);
             this.GB_cellPage.TabIndex = 1;
             this.GB_cellPage.TabStop = false;
             this.GB_cellPage.Text = "Cell Page";
@@ -83,20 +88,23 @@
             // 
             this.TB_cellPage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TB_cellPage.Font = new System.Drawing.Font("文泉驛微米黑", 12F);
-            this.TB_cellPage.Location = new System.Drawing.Point(3, 27);
+            this.TB_cellPage.Location = new System.Drawing.Point(2, 21);
+            this.TB_cellPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TB_cellPage.Multiline = true;
             this.TB_cellPage.Name = "TB_cellPage";
             this.TB_cellPage.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TB_cellPage.Size = new System.Drawing.Size(305, 404);
+            this.TB_cellPage.Size = new System.Drawing.Size(229, 324);
             this.TB_cellPage.TabIndex = 2;
             // 
             // GB_tempPage
             // 
             this.GB_tempPage.Controls.Add(this.TB_tempPage);
             this.GB_tempPage.Font = new System.Drawing.Font("文泉驛微米黑", 12F);
-            this.GB_tempPage.Location = new System.Drawing.Point(335, 111);
+            this.GB_tempPage.Location = new System.Drawing.Point(251, 89);
+            this.GB_tempPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GB_tempPage.Name = "GB_tempPage";
-            this.GB_tempPage.Size = new System.Drawing.Size(311, 203);
+            this.GB_tempPage.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GB_tempPage.Size = new System.Drawing.Size(233, 162);
             this.GB_tempPage.TabIndex = 1;
             this.GB_tempPage.TabStop = false;
             this.GB_tempPage.Text = "Temp Page";
@@ -105,19 +113,22 @@
             // 
             this.TB_tempPage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TB_tempPage.Font = new System.Drawing.Font("文泉驛微米黑", 12F);
-            this.TB_tempPage.Location = new System.Drawing.Point(3, 27);
+            this.TB_tempPage.Location = new System.Drawing.Point(2, 21);
+            this.TB_tempPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TB_tempPage.Multiline = true;
             this.TB_tempPage.Name = "TB_tempPage";
             this.TB_tempPage.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TB_tempPage.Size = new System.Drawing.Size(305, 173);
+            this.TB_tempPage.Size = new System.Drawing.Size(229, 139);
             this.TB_tempPage.TabIndex = 1;
             // 
             // GB_LowStatus
             // 
             this.GB_LowStatus.Font = new System.Drawing.Font("文泉驛微米黑", 12F);
-            this.GB_LowStatus.Location = new System.Drawing.Point(652, 111);
+            this.GB_LowStatus.Location = new System.Drawing.Point(489, 89);
+            this.GB_LowStatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GB_LowStatus.Name = "GB_LowStatus";
-            this.GB_LowStatus.Size = new System.Drawing.Size(311, 640);
+            this.GB_LowStatus.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GB_LowStatus.Size = new System.Drawing.Size(233, 512);
             this.GB_LowStatus.TabIndex = 2;
             this.GB_LowStatus.TabStop = false;
             this.GB_LowStatus.Text = "Low Staus Page";
@@ -125,9 +136,11 @@
             // GB_HiStatus
             // 
             this.GB_HiStatus.Font = new System.Drawing.Font("文泉驛微米黑", 12F);
-            this.GB_HiStatus.Location = new System.Drawing.Point(15, 453);
+            this.GB_HiStatus.Location = new System.Drawing.Point(11, 362);
+            this.GB_HiStatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GB_HiStatus.Name = "GB_HiStatus";
-            this.GB_HiStatus.Size = new System.Drawing.Size(311, 298);
+            this.GB_HiStatus.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GB_HiStatus.Size = new System.Drawing.Size(233, 238);
             this.GB_HiStatus.TabIndex = 3;
             this.GB_HiStatus.TabStop = false;
             this.GB_HiStatus.Text = "Hi Staus Page";
@@ -138,8 +151,9 @@
             this.labelTitle.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelTitle.Font = new System.Drawing.Font("文泉驛微米黑", 25F);
             this.labelTitle.Location = new System.Drawing.Point(0, 0);
+            this.labelTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(193, 49);
+            this.labelTitle.Size = new System.Drawing.Size(157, 40);
             this.labelTitle.TabIndex = 4;
             this.labelTitle.Text = "labelTitle";
             this.labelTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -148,23 +162,25 @@
             // 
             this.panel1.Controls.Add(this.labelTitle);
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(970, 105);
+            this.panel1.Size = new System.Drawing.Size(728, 84);
             this.panel1.TabIndex = 5;
             // 
             // panel2
             // 
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(973, 766);
+            this.panel2.Size = new System.Drawing.Size(730, 613);
             this.panel2.TabIndex = 1;
             // 
             // FormPopup
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(973, 766);
+            this.ClientSize = new System.Drawing.Size(730, 613);
             this.Controls.Add(this.GB_HiStatus);
             this.Controls.Add(this.GB_LowStatus);
             this.Controls.Add(this.GB_tempPage);
@@ -174,6 +190,7 @@
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormPopup";

@@ -83,7 +83,12 @@ namespace BMM_Battery_Mobus_Moniter_ver0._2_.Controls
         {
             UpdatePageButtons();
         }
-
+        //for can bus updata
+        public void SetDataText(string text)
+        {
+            // 假設你有一個 Label 或 TextBox 控件
+            this.textBoxData.Text = text;  // 或其他顯示區域
+        }
         // 閃爍計時器事件
         private void FlashTimer_Tick(object sender, EventArgs e)
         {

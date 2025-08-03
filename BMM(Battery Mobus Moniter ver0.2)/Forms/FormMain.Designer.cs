@@ -46,34 +46,35 @@
             this.TB_ID3name = new System.Windows.Forms.TextBox();
             this.TB_ID6name = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.CB_ID7 = new System.Windows.Forms.CheckBox();
+            this.TB_ID7name = new System.Windows.Forms.TextBox();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.TB_ID7name = new System.Windows.Forms.TextBox();
-            this.CB_ID7 = new System.Windows.Forms.CheckBox();
-            this.panel11 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.CbCs2Polling = new System.Windows.Forms.CheckBox();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel10.SuspendLayout();
+            this.panel11.SuspendLayout();
             this.panel9.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel13.SuspendLayout();
-            this.panel11.SuspendLayout();
             this.SuspendLayout();
             // 
             // BT_Connect
@@ -246,71 +247,35 @@
             this.panel3.Size = new System.Drawing.Size(751, 520);
             this.panel3.TabIndex = 28;
             // 
-            // panel4
+            // panel11
             // 
-            this.panel4.Controls.Add(this.TB_HVname);
-            this.panel4.Controls.Add(this.CB_ID0);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(751, 61);
-            this.panel4.TabIndex = 1;
+            this.panel11.Controls.Add(this.CB_ID7);
+            this.panel11.Controls.Add(this.TB_ID7name);
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel11.Location = new System.Drawing.Point(0, 427);
+            this.panel11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(751, 61);
+            this.panel11.TabIndex = 30;
             // 
-            // panel5
+            // CB_ID7
             // 
-            this.panel5.Controls.Add(this.TB_ID1name);
-            this.panel5.Controls.Add(this.CB_ID1);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 61);
-            this.panel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(751, 61);
-            this.panel5.TabIndex = 1;
+            this.CB_ID7.AutoSize = true;
+            this.CB_ID7.Location = new System.Drawing.Point(19, 7);
+            this.CB_ID7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CB_ID7.Name = "CB_ID7";
+            this.CB_ID7.Size = new System.Drawing.Size(93, 39);
+            this.CB_ID7.TabIndex = 18;
+            this.CB_ID7.Text = "ID 7";
+            this.CB_ID7.UseVisualStyleBackColor = true;
             // 
-            // panel6
+            // TB_ID7name
             // 
-            this.panel6.Controls.Add(this.CB_ID2);
-            this.panel6.Controls.Add(this.TB_ID2name);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 122);
-            this.panel6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(751, 61);
-            this.panel6.TabIndex = 1;
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.CB_ID3);
-            this.panel7.Controls.Add(this.TB_ID3name);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 183);
-            this.panel7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(751, 61);
-            this.panel7.TabIndex = 1;
-            // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.CB_ID4);
-            this.panel8.Controls.Add(this.TB_ID4name);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(0, 244);
-            this.panel8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(751, 61);
-            this.panel8.TabIndex = 1;
-            // 
-            // panel10
-            // 
-            this.panel10.Controls.Add(this.TB_ID5name);
-            this.panel10.Controls.Add(this.CB_ID5);
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel10.Location = new System.Drawing.Point(0, 305);
-            this.panel10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(751, 61);
-            this.panel10.TabIndex = 28;
+            this.TB_ID7name.Location = new System.Drawing.Point(130, -4);
+            this.TB_ID7name.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.TB_ID7name.Name = "TB_ID7name";
+            this.TB_ID7name.Size = new System.Drawing.Size(609, 43);
+            this.TB_ID7name.TabIndex = 26;
             // 
             // panel9
             // 
@@ -323,8 +288,75 @@
             this.panel9.Size = new System.Drawing.Size(751, 61);
             this.panel9.TabIndex = 29;
             // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.TB_ID5name);
+            this.panel10.Controls.Add(this.CB_ID5);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel10.Location = new System.Drawing.Point(0, 305);
+            this.panel10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(751, 61);
+            this.panel10.TabIndex = 28;
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.CB_ID4);
+            this.panel8.Controls.Add(this.TB_ID4name);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel8.Location = new System.Drawing.Point(0, 244);
+            this.panel8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(751, 61);
+            this.panel8.TabIndex = 1;
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.CB_ID3);
+            this.panel7.Controls.Add(this.TB_ID3name);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 183);
+            this.panel7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(751, 61);
+            this.panel7.TabIndex = 1;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.CB_ID2);
+            this.panel6.Controls.Add(this.TB_ID2name);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Location = new System.Drawing.Point(0, 122);
+            this.panel6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(751, 61);
+            this.panel6.TabIndex = 1;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.TB_ID1name);
+            this.panel5.Controls.Add(this.CB_ID1);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 61);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(751, 61);
+            this.panel5.TabIndex = 1;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.TB_HVname);
+            this.panel4.Controls.Add(this.CB_ID0);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(751, 61);
+            this.panel4.TabIndex = 1;
+            // 
             // panel12
             // 
+            this.panel12.Controls.Add(this.CbCs2Polling);
             this.panel12.Controls.Add(this.CMB_ComChoice);
             this.panel12.Controls.Add(this.BT_Connect);
             this.panel12.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -343,15 +375,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(751, 68);
             this.panel1.TabIndex = 27;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(19, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 35);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "請選擇Com和ID";
             // 
             // panel2
             // 
@@ -374,35 +397,25 @@
             this.panel13.Size = new System.Drawing.Size(253, 64);
             this.panel13.TabIndex = 11;
             // 
-            // TB_ID7name
+            // label1
             // 
-            this.TB_ID7name.Location = new System.Drawing.Point(130, -4);
-            this.TB_ID7name.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.TB_ID7name.Name = "TB_ID7name";
-            this.TB_ID7name.Size = new System.Drawing.Size(609, 43);
-            this.TB_ID7name.TabIndex = 26;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(19, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(228, 35);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "請選擇Com和ID";
             // 
-            // CB_ID7
+            // CbCs2Polling
             // 
-            this.CB_ID7.AutoSize = true;
-            this.CB_ID7.Location = new System.Drawing.Point(19, 7);
-            this.CB_ID7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.CB_ID7.Name = "CB_ID7";
-            this.CB_ID7.Size = new System.Drawing.Size(93, 39);
-            this.CB_ID7.TabIndex = 18;
-            this.CB_ID7.Text = "ID 7";
-            this.CB_ID7.UseVisualStyleBackColor = true;
-            // 
-            // panel11
-            // 
-            this.panel11.Controls.Add(this.CB_ID7);
-            this.panel11.Controls.Add(this.TB_ID7name);
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel11.Location = new System.Drawing.Point(0, 427);
-            this.panel11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(751, 61);
-            this.panel11.TabIndex = 30;
+            this.CbCs2Polling.AutoSize = true;
+            this.CbCs2Polling.Location = new System.Drawing.Point(143, 41);
+            this.CbCs2Polling.Name = "CbCs2Polling";
+            this.CbCs2Polling.Size = new System.Drawing.Size(239, 39);
+            this.CbCs2Polling.TabIndex = 10;
+            this.CbCs2Polling.Text = "Canbus Polling";
+            this.CbCs2Polling.UseVisualStyleBackColor = true;
+            this.CbCs2Polling.CheckedChanged += new System.EventHandler(this.CbCs2Polling_CheckedChanged);
             // 
             // FormMain
             // 
@@ -421,27 +434,28 @@
             this.Text = "Choisce ID & Com";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.panel10.ResumeLayout(false);
-            this.panel10.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -480,6 +494,7 @@
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.CheckBox CB_ID7;
         private System.Windows.Forms.TextBox TB_ID7name;
+        private System.Windows.Forms.CheckBox CbCs2Polling;
     }
 }
 
