@@ -1,0 +1,261 @@
+using BMM_Battery_Mobus_Moniter_ver0._2_.Controls;
+using BMSHostMonitor;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Diagnostics;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace BMM_Battery_Mobus_Moniter_ver0._2_.Forms
+{
+    public partial class FormCanbus : Form
+    {
+        canbusMainStructure canbus = new canbusMainStructure();
+        int nowCs2Id = 0;
+        public FormCanbus(canbusMainStructure _canbus, int _nowCs2Id)
+        {
+            InitializeComponent();
+            canbus = _canbus;
+            this.nowCs2Id = _nowCs2Id;
+        }
+        private void cs2UIUpdate(int id)
+        {
+            if (canbus?.RackDataChayiBCU == null || canbus.TotalMasterDataChayi == null)
+            {
+                //textboxdata.Text = "資料不存在\n";
+                return;
+            }
+
+            var sb = new StringBuilder();
+
+            // 電壓、電流、SOC、SOH
+            double voltage = Convert.ToDouble(canbus.RackDataChayiBCU.RackVoltage24Bits) / 1000;
+            double current = Convert.ToDouble(canbus.RackDataChayiBCU.RackCurrent24Bits) / 1000;
+            double soc = Convert.ToDouble(canbus.RackDataChayiBCU.SoC) / 10;
+            double soh = Convert.ToDouble(canbus.RackDataChayiBCU.SOH) / 10;
+
+            sb.AppendLine($"電壓: {voltage:#0.000} V");
+            sb.AppendLine($"電流: {current:#0.000} A");
+            sb.AppendLine($"SOC: {soc:#0.0} %");
+            sb.AppendLine($"SOH: {soh:#0.0} %");
+            sb.AppendLine();
+
+            // 動態讀取 CellVoltage1~CellVoltage22
+            var cellVoltages = new List<int>();
+            for (int i = 1; i <= 22; i++)
+            {
+                var prop = canbus.TotalMasterDataChayi[id].GetType().GetProperty($"CellVoltage{i}");
+                if (prop != null)
+                {
+                    var val = prop.GetValue(canbus.TotalMasterDataChayi[id]);
+                    int v = 0;
+                    if (val != null && int.TryParse(val.ToString(), out v))
+                    {
+                        cellVoltages.Add(v);
+                        sb.AppendLine($"Cell {i}: {v}");
+                    }
+                }
+            }
+
+            if (cellVoltages.Count > 0)
+            {
+                int maxVal = cellVoltages.Max();
+                int minVal = cellVoltages.Min();
+                int maxIdx = cellVoltages.IndexOf(maxVal) + 1;
+                int minIdx = cellVoltages.IndexOf(minVal) + 1;
+                int packV = cellVoltages.Sum();
+
+                sb.AppendLine();
+                sb.AppendLine($"最大電壓: {maxVal} (Cell {maxIdx})");
+                sb.AppendLine($"最小電壓: {minVal} (Cell {minIdx})");
+                sb.AppendLine($"電壓差值: {maxVal - minVal}");
+                sb.AppendLine($"電池總電壓和: {packV}");
+                sb.AppendLine();
+            }
+            else
+            {
+                sb.AppendLine("無 Cell 電壓資料");
+            }
+
+            // 動態讀取 Temperature1~Temperature12 (除以100)
+            var temps = new List<double>();
+            for (int i = 1; i <= 12; i++)
+            {
+                var prop = canbus.TotalMasterDataChayi[id].GetType().GetProperty($"Temperature{i}");
+                if (prop != null)
+                {
+                    var val = prop.GetValue(canbus.TotalMasterDataChayi[id]);
+                    double t = 0;
+                    if (val != null && double.TryParse(val.ToString(), out t))
+                    {
+                        t = t / 100;
+                        temps.Add(t);
+                        sb.AppendLine($"溫度 {i}: {t:#0.00} °C");
+                    }
+                }
+            }
+
+            if (temps.Count > 0)
+            {
+                double maxT = temps.Max();
+                double minT = temps.Min();
+                sb.AppendLine();
+                sb.AppendLine($"最高溫度: {maxT:#0.00} °C");
+                sb.AppendLine($"最低溫度: {minT:#0.00} °C");
+                sb.AppendLine($"溫差: {(maxT - minT):#0.00} °C");
+                sb.AppendLine();
+            }
+            else
+            {
+                sb.AppendLine("無溫度資料");
+            }
+
+            // 狀態顯示 (COT, COV, CUV, DOT)
+            sb.AppendLine($"COT: {(canbus.RackDataChayiBCU.COT ? "異常" : "正常")}");
+            sb.AppendLine($"COV: {(canbus.RackDataChayiBCU.COV ? "異常" : "正常")}");
+            sb.AppendLine($"CUV: {(canbus.RackDataChayiBCU.CUV ? "異常" : "正常")}");
+            sb.AppendLine($"DOT: {(canbus.RackDataChayiBCU.DOT ? "異常" : "正常")}");
+
+            // 最後全部放入 textbox
+            //textboxdata.Text = sb.ToString();
+        }
+
+        //新增Panel
+        public void AddBatteryPanels(string comPort, List<string> batteryIds)
+        {
+            if (batteryIds == null || batteryIds.Count == 0)
+                return;
+
+            foreach (var batteryId in batteryIds)
+            {
+                // 檢查是否已經有相同的 Panel，避免重複加入
+                bool exists = tableLayoutPanelPanels.Controls
+                    .OfType<BatteryPanel>()
+                    .Any(p => p.ComPort == comPort && p.BatteryId == batteryId);
+                if (exists)
+                    continue;
+
+                var panel = new BatteryPanel()
+                {
+                    ComPort = comPort,
+                    BatteryId = batteryId,
+                    BatteryName = $"Battery {batteryId}", // 可自訂
+                    Width = 250,   // 你可調整大小
+                    Height = 200,
+                    Margin = new Padding(5),
+                    Dock = DockStyle.None // 讓 TableLayoutPanel 自己安排位置
+                };
+
+                // 可以訂閱事件，例如 PanelClicked
+                panel.PanelClicked += Panel_PanelClicked;
+
+                tableLayoutPanelPanels.Controls.Add(panel);
+            }
+
+            // 更新排版 (可選)
+            tableLayoutPanelPanels.PerformLayout();
+        }
+        // Panel 點擊事件範例
+        private void Panel_PanelClicked(object sender, EventArgs e)
+        {
+            var panel = sender as BatteryPanel;
+            MessageBox.Show($"Clicked {panel.BatteryName} ({panel.Key})");
+        }
+        //新增Panel
+
+
+        private void FormCanbus_Load(object sender, EventArgs e)
+        {
+           BgwCs2PollingCmd.RunWorkerAsync();
+        }
+        int nowmaxPackV = 0;
+        int nowmaxPackVID = 0;
+
+        int nowminPackV = 0;
+        int nowminPackVID = 0;
+
+        int nowdeltaPackV = 0;
+        private void BgwCs2PollingCmd_DoWork(object sender, DoWorkEventArgs e)
+        {
+            Stopwatch t1 = new Stopwatch();
+
+            t1.Start();
+            uint rackid = 1;
+            canbus.csReadRackInfo(rackid);
+            foreach (var id in canbus.idList)
+            {
+                canbus.csReadBmsAll(rackid, id);
+
+                BgwCs2PollingCmd.ReportProgress(0, t1.ElapsedMilliseconds.ToString());
+                //canbus.csReadBmsCell(id);
+                //canbus.csReadBmsTemperature(id);
+                //canbus.csReadBmsProtection(id);
+            }
+
+            // 全部做完一輪以後開始比較 packV
+            nowmaxPackV = 0;
+            nowmaxPackVID = 0;
+
+            nowminPackV = 9999999;
+            nowminPackVID = 0;
+            nowdeltaPackV = 0;
+            foreach (var id in canbus.idList)
+            {
+                int packVoltage = Convert.ToInt32(canbus.TotalMasterDataChayi[id].PackVoltage);
+
+                if (packVoltage > nowmaxPackV)
+                {
+                    nowmaxPackV = packVoltage;
+                    nowmaxPackVID = id;
+                }
+
+                if (packVoltage <= nowminPackV)
+                {
+                    nowminPackV = packVoltage;
+                    nowminPackVID = id;
+                }
+
+            }
+            nowdeltaPackV = nowmaxPackV - nowminPackV;
+            t1.Stop();
+            //nowPollingCount++;
+            BgwCs2PollingCmd.ReportProgress(1, t1.ElapsedMilliseconds.ToString());
+
+            Thread.Sleep(10);
+            //textboxdata.Clear();
+        }
+
+        private void BgwCs2PollingCmd_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            //textboxdata.Clear();
+            cs2UIUpdate(nowCs2Id);
+            //textboxdata.Text += nowmaxPackV.ToString();
+            //textboxdata.Text += "(" + nowmaxPackVID.ToString() + ")";
+
+            //textboxdata.Text += nowminPackV.ToString();
+            //textboxdata.Text += "(" + nowminPackVID.ToString() + ")";
+
+            //textboxdata.Text += nowdeltaPackV.ToString();
+
+            /*if (e.ProgressPercentage == 0)
+                textboxdata.Text += "ReadStatus: " + e.UserState.ToString();
+            else
+                textboxdata.Text += "TotalTime: " + e.UserState.ToString();*/
+        }
+
+        private void BgwCs2PollingCmd_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+
+                BgwCs2PollingCmd.RunWorkerAsync();
+                
+        }
+
+
+    }
+}
